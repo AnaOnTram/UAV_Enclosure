@@ -1,0 +1,38 @@
+# SolidWorks lock and temporary files
+~$*
+*.sldprt~
+*.sldasm~
+*.slddrw~
+
+# General temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.orig
+*~
+.*.swp
+.*.swo
+
+# Cache directories
+**/.cache/
+**/cache/
+**/tmp/
+**/temp/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+
+# Common operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
